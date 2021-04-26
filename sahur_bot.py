@@ -7,11 +7,11 @@ from threading import Lock
 from unidecode import unidecode
 import random
 
-api_id =  4748268 
-api_hash = '3bb985dd19588c90aaad6179dfaa9803'
+api_id = 5140853 
+api_hash = '5ad177b93b372ece795bae27a6d08208'
 
 client = TelegramClient('sahur_bot', api_id, api_hash)
-client.start(bot_token="1719887981:AAGFLrJDIWf2JxctYQ1Wik-p0AO-tdd0GY0")
+client.start(bot_token="1779985085:AAHvIksh33rYFK8Jsm5tyCB-94oPSNDNp8s")
 
 
 sahursoz = open("sahur_sahursoz.txt").read().splitlines()
